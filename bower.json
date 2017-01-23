@@ -1,0 +1,27 @@
+{
+  "name": "purescript-most",
+  "authors": [
+    "Jichao Ouyang <oyanglulu@gmail.com>"
+  ],
+  "description": "purescript most.js ffi",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "most": "^1.2.1",
+    "purescript-control": "^2.0.0",
+    "purescript-functions": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^2.0.0",
+    "purescript-quickcheck": "^3.1.1"
+  },
+  "version": "1.0.0"
+}
