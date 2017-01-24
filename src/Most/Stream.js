@@ -7,3 +7,5 @@ exports._concat = most.concat;
 exports._show = function(stream) {
     return "Stream {" + stream.source.constructor.name + JSON.stringify(stream.source) + "}"
 }
+exports.equal = function(a, b, eq) {
+}
